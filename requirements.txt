@@ -1,6 +1,7 @@
-tensorflow==2.12.0
-numpy>=1.21.0
-pandas>=1.3.0
-scikit-learn>=1.0.0
-nltk>=3.7
-streamlit>=1.28.0
+streamlit==1.32.0
+tensorflow==2.15.0
+numpy==1.26.4
+pandas==2.2.1
+nltk==3.8.1
+gdown==5.1.0
+scikit-learn==1.4.1
