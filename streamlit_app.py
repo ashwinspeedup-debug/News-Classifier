@@ -92,7 +92,7 @@ def load_artifacts():
     # Download model if not present
     if not os.path.exists(MODEL_PATH):
         st.info("Downloading model...")
-        gdown.download(MODEL_URL, MODEL_PATH, quiet=False)
+        gdown.download(MODEL_URL, MODEL_PATH, quiet=False,fuzzy=True)
 
     # Load model
     if TF_AVAILABLE and os.path.exists(MODEL_PATH):
