@@ -84,8 +84,7 @@ def load_artifacts():
     model, tokenizer = None, None
 
     MODEL_PATH = "model.h5"
-    TOKENIZER_PATH = "tokenizer.pkl"
-
+    
     # Google Drive file ID
     MODEL_URL = "https://drive.google.com/file/d/1fRsSUPsxshZX3qAXN1k7oxJpoVFvljSL/view?usp=sharing"
 
